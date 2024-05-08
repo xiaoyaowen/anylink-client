@@ -6,7 +6,7 @@ on:
 jobs:
   setup:
     name: Setup
-    uses: xiaoyaowen/anylink-client/blob/main/.github/workflows/release.yml@main
+    uses: xiaoyaowen/anylink-client/.github/workflows/release.yml@main
   build:
     name: Build
     runs-on: ${{ matrix.os }}
